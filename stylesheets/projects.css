@@ -1,0 +1,65 @@
+ul {
+    list-style-type: none;
+}
+
+.item {
+    border: solid grey 1px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 100px;
+    padding: 10px;
+    background-color: #cefff2;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-pics {
+    width: 500px;
+    margin: 0 35px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    box-shadow: 0 4px 6px rgba(0,0,0,.3);
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+}
+
+.item-pics:hover {
+    transform: scale(1.1, 1.1);
+    transition-duration: 1s;
+}
+
+.item-title {
+    font-family: "Georgia", Times, serif;
+    margin: 10px;
+    text-align: center;
+    color: #4739b2;
+    font-size: 34px;
+}
+
+.item-button {
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+
+.item-content > a {
+    margin: 30px auto;
+}
+
+.item-button:hover {
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+}
+
+.info {
+    color: #149e99;
+}
