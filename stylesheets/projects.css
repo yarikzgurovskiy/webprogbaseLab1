@@ -43,6 +43,10 @@ ul {
     font-size: 34px;
 }
 
+form {
+    margin: 0 auto;
+}
+
 .item-button {
     padding: 10px;
     border: 1px solid transparent;
@@ -64,3 +68,4 @@ ul {
 .info {
     color: #149e99;
 }
+
